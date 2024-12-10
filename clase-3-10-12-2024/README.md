@@ -1,4 +1,4 @@
-# **Proyecto React - [Nombre del Proyecto]**  
+# **Proyecto React - Inciando React**  
 
 ## **Descripción**  
 [Breve descripción del proyecto. Explica de qué se trata y sus principales características.]  
