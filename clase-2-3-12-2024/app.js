@@ -70,9 +70,7 @@ const raza = "caniche"
 const color = "blanco"
 const peso = "4 kg"
 
-const oracion = "Mi perro es un "
-  + raza + " de color " + color
-  + " y pesa " + peso
+const oracion = "Mi perro es un " + raza + " de color " + color + " y pesa " + peso
 
 // console.log(
 //   `  Mi perro es un ${raza}
