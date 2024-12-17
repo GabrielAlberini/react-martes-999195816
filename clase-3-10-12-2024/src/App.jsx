@@ -1,14 +1,23 @@
 import CrearSaludo from './CrearSaludo.jsx'
-import './App.css'
+import "./App.css"
 
-const nombre = "Edrian"
-const edad = 38
+const nombre = "Gabriel"
+const edad = 47
 
 const App = () => {
   return (
     <div>
       <CrearSaludo />
-      <p>Mi nombre es {nombre} y {edad > 17 ? "soy mayor de edad" : "soy menor de edad"}.</p>
+      <Componente2 />
+
+      <p>Mi nombre es {nombre} y
+        {
+          edad > 17
+            ? <span style={{ color: "red" }}> soy mayor de edad</span>
+            : <span style={{ color: "green" }}> soy menor de edad</span>
+        }.
+      </p>
+
       <ul>
         <li>Home</li>
         <li>Projects</li>

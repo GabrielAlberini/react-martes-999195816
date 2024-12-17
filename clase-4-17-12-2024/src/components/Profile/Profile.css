@@ -1,0 +1,15 @@
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.name span {
+  color: grey;
+}
+
+h4 {
+  color: gray;
+  padding-bottom: 10px;
+}
